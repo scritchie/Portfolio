@@ -1,0 +1,117 @@
+text{
+font-size:36px;
+}
+#logo{
+	height: 100vh;
+}
+#svgBox{
+	position: absolute;
+	left: 30%;
+	top: 0px;
+}
+
+#sCircle{
+r: 80;
+opacity: .6;
+fill: #FB9F89;
+}
+
+#sTri{
+opacity: .8;
+fill: #81AE9D;
+}
+
+#header{
+position: absolute;
+top: 400px;
+left: 34%;
+font-family: 'Reenie Beanie', cursive;
+font-size: 32px;
+}
+.hide{
+	display: none;
+}
+#Navbar{
+float: right;
+position: fixed;
+width: 100%;
+background-color: #fff;
+z-index: 5;
+margin: -10px;
+opacity: .9;
+}
+
+#Nav{
+float: right;
+padding: 20px 20px;
+//padding: 20px 20px;
+//position: fixed;
+//top: 440px;
+//left: 35%;
+
+}
+.NavItem{
+
+    display: inline;
+}
+.NavItem a{
+   color: #000;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.NavItem a:hover{
+	color: #999;
+}
+
+.right{
+	float: right;
+	
+	height: 700px;
+	width: 50%;
+	
+}
+
+.left{
+width: 50%;
+	float: left;
+	height: 100vh;
+	
+}
+
+.sectionTitle{
+margin: 35%;
+font-family: 'Reenie Beanie', cursive;
+font-size: 70px;
+color: #79A2B7;
+}
+
+.sectionTitle2{
+margin: 35%;
+font-family: 'Reenie Beanie', cursive;
+font-size: 70px;
+color: #79A2B7;
+}
+
+
+.scrollToTop{
+	width: 10%; 
+	height: auto;
+	
+	position:fixed;
+	top:75px;
+	right:40px;
+
+
+
+
+}
+.scrollToTop:hover{
+	opacity:.4;
+}
+
+
